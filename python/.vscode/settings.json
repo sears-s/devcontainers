@@ -1,8 +1,11 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
+  "editor.formatOnSave": true,
   "python.formatting.provider": "black",
-  "python.showStartPage": false
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
 }
