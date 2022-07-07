@@ -1,0 +1,9 @@
+{
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "James-Yu.latex-workshop",
+    "valentjn.vscode-ltex"
+  ],
+  "postStartCommand": "git config --global gpg.program \"$(which gpg)\""
+}
