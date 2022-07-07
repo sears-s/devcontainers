@@ -1,6 +1,7 @@
 # Visual Studio Code `devcontainer` Templates
 
 - [Python Development](python/)
+- [TeX Development](tex/)
 
 ## Windows Setup
 
